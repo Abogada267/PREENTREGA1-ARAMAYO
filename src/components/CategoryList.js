@@ -1,14 +1,17 @@
 import React from 'react';
 
 const CategoryList = () => {
-  const categories = ['Categoría 1', 'Categoría 2', 'Categoría 3', 'Categoría 4'];
+  const categories = ['Demanda de alimentos', 'Carta Documento', 'Multas de tránsito', 'Telegrama Laboral'];
 
   return (
     <div className="category-list">
       {categories.map((category, index) => (
-        <a key={index} href={`/categoria/${category}`} className="category-link">
-          {category}
-        </a>
+          <a key={index}
+              href={`/categoria/${category}`} className="category-link"
+    style={{ color:'blue', fontFamily: 'Arial',paddingRight: '1cm', display: 'interline-block' }}
+         >
+              {category}
+          </a>
       ))}
     </div>
   );
