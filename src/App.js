@@ -7,9 +7,21 @@ import NavBar from './components/NavBar/NavBar'; // Agrega esta línea de import
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <NavBar />
-      <MainContent />
+      <Header style={{ color: 'blue',
+            fontFamily: 'Arial',
+            paddingRight: '1cm',
+            display: 'inline-block',
+            marginTop: '2rem' }}/>
+      <NavBar style={{ color: 'yellow',
+            fontFamily: 'Arial',
+            paddingRight: '9cm',
+            display: 'inline-block',
+            marginTop: '2rem' }}/>
+      <MainContent style={{ color: 'blue',
+            fontFamily: 'Arial',
+            paddingRight: '1cm',
+            display: 'inline-block',
+            marginTop: '2rem' }}/>
     </div>
   );
 }
