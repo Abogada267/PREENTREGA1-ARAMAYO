@@ -1,0 +1,14 @@
+/* Establece el tamaño del contenedor del carrusel */
+.slick-slider {
+    width: 80%;
+    /* Ajusta el tamaño del carrusel según tus necesidades */
+    margin: 0 auto;
+    /* Centra horizontalmente el carrusel */
+}
+
+.slick-slide img {
+    width: 100%;
+    /* Las imágenes ocuparán el 100% del ancho de su contenedor (la diapositiva) */
+    height: auto;
+    /* La altura se ajustará automáticamente para mantener la proporción de aspecto */
+}

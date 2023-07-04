@@ -1,7 +1,5 @@
 import React from 'react';
 import Select from 'react-select';
-import 'react-select/dist/react-select.css';
-
 const CategoryList = () => {
   const categories = [
     { value: 'category1', label: 'Categoría 1' },
